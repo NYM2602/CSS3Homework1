@@ -39,6 +39,7 @@ main {
     font-size: 24px;
     display: flex;
     padding: 1%;
+    margin-bottom: 10%;
 }
 
 
@@ -48,14 +49,10 @@ footer {
     color: #ffffff;
     text-align: center;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
-p {
-    margin: 0;
-    padding: 1%;
-}
 
 li {
     display:inline-block;
@@ -72,4 +69,6 @@ h1 {
 
 p {
     line-height: 150%;
+    margin: 0;
+    padding: 1%;
 }
